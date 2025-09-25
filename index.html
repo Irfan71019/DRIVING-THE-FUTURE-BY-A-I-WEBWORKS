@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>PORSCHE</title>
+</head>
+<body>
+</div>
+
+  <header>
+    <div class="container">
+      <h1>PORSCHE</h1>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#welcome">Home</a></li>
+      <li><a href="#cars">Type of Car</a></li>
+      <li><a href="tel:+60194750759">📞 60194750759</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <img src="img/porsche.png" alt="Porsche Logo" class="logo">
+    <h2>Welcome to the World of Porsche</h2>
+    <p>Where Performance Meets Luxury</p>
+  </section>
+
+  <div class="container">
+    <div class="main">
+      <h1 id="welcome">PORSCHE</h1>
+      <p>Porsche is a renowned German automobile manufacturer known for producing high-performance sports cars, luxury SUVs, and sedans. The company is officially called Dr. Ing. h.c. F. Porsche AG, and it is headquartered in Stuttgart, Germany.</p>
+
+      <section class="timeline">
+        <h2>Driving the Future: Porsche Milestones</h2>
+        <ul>
+          <li><strong>1948:</strong> First Porsche 356 introduced</li>
+          <li><strong>1963:</strong> Iconic Porsche 911 launched</li>
+          <li><strong>1972:</strong> Establishment of Porsche Design</li>
+          <li><strong>2002:</strong> Porsche Cayenne SUV released</li>
+          <li><strong>2019:</strong> Porsche Taycan, the first electric Porsche</li>
+          <li><strong>2025:</strong> Porsche continues to drive the future with innovation</li>
+        </ul>
+      </section>
+
+ <button id="showFuture" class="btn">🚀 See Porsche Future</button>
+
+<div id="futureInfo" style="display:none; margin-top:15px; background:#222; color:#fff; padding:15px; border-radius:8px;">
+  By 2030, Porsche aims for 80% of its vehicles to be electric ⚡🏎️.
+</div>
+
+<script>
+const btn = document.getElementById("showFuture");
+const info = document.getElementById("futureInfo");
+
+btn.onclick = () => {
+  if(window.getComputedStyle(info).display === "none") {
+    info.style.display = "block";
+  } else {
+    info.style.display = "none";
+  }
+};
+</script>
+
+
+
+      <section class="highlights">
+        <h2>Porsche Highlights: Racing, Innovation & Milestones</h2>
+        <ul>
+          <li><strong>Motorsport:</strong> Porsche holds the record with 19 overall victories at the 24 Hours of Le Mans, making it the most successful manufacturer in endurance racing history.</li>
+          <li><strong>Innovation:</strong> The Porsche 959 (1986) was one of the most technologically advanced cars of its time, featuring twin-turbocharging, all-wheel drive, and adaptive suspension.</li>
+          <li><strong>Electrification:</strong> The Porsche Taycan (2019) was the first production electric vehicle to use an 800-volt system for ultra-fast charging and high performance.</li>
+          <li><strong>Production Milestones:</strong> Over 1 million Porsche 911s have been produced since its launch in 1963, cementing its place as an icon of sports car history.</li>
+          <li><strong>Financial Turnaround:</strong> The introduction of the Porsche Cayenne in 2002 significantly boosted Porsche’s global sales and ensured the brand’s long-term success.</li>
+        </ul>
+      </section>
+
+      <div class="card-container" id="cars">
+        <div class="card">
+          <h2>PORSCHE 911 TURBO S</h2>
+          <p><a href="911.html" class="btn">View Full Specifications</a></p>
+        </div>
+        <div class="card">
+          <h2>PORSCHE TAYCAN TURBO S</h2>
+          <p><a href="taycan.html" class="btn">View Full Specifications</a></p>
+        </div>
+        <div class="card">
+          <h2>PORSCHE 718 CAYMAN GT4 RS</h2>
+          <p><a href="cayman.html" class="btn">View Full Specifications</a></p>
+        </div>
+        <div class="card">
+           <h2>PORSCHE 911 CARRERA 4 GTS</h2>
+          <p><a href="carrera.html" class="btn">View Full Specifications</a></p>
+        </div>
+        <div class="card">
+          <h2>PORSCHE GT3</h2>
+          <p><a href="gt3.html" class="btn">View Full Specifications</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <a href="https://www.porsche.com/pap/_malaysia_/models/" 
+         class="official-link" target="_blank">
+        PORSCHE OFFICIAL WEBSITE
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 PORSCHE MALAYSIA</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
